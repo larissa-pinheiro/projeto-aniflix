@@ -1,0 +1,31 @@
+@media screen and (max-width: 825px) {    /* condição */
+    header .container {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+
+    }
+
+    nav {
+        justify-content: center;
+        position: absolute;
+        top: 8%;
+    }
+
+    .logo  {
+        position: relative;
+        left: 4%;
+    }
+
+    .botao2 {
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 55%;
+    }
+}
